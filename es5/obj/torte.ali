@@ -1,0 +1,177 @@
+V "GNAT Lib v13"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RELATIVE_DELAY
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_SELECT_ALTERNATIVES=5
+RV MAX_TASK_ENTRIES=5
+RV MAX_TASKS=1+
+
+U torte%b		torte.adb		125497c8 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20230515073318 76789da1 ada%s
+D a-assert.ads		20230515073318 ba465f5c ada.assertions%s
+D a-calend.ads		20230515073318 f55c50a3 ada.calendar%s
+D a-caldel.ads		20230515073318 9f20b83d ada.calendar.delays%s
+D a-except.ads		20230515073318 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230515073318 bf4f806b ada.finalization%s
+D a-inteio.ads		20230515073318 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20230515073318 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20230515073318 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230515073318 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230515073318 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-reatim.ads		20230515073318 b89a10c3 ada.real_time%s
+D a-stream.ads		20230515073318 119b8fb3 ada.streams%s
+D a-string.ads		20230515073318 90ac6797 ada.strings%s
+D a-sttebu.ads		20230515073318 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230515073318 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230515073318 9eaa38c6 ada.tags%s
+D a-textio.ads		20230515073318 5c2c6153 ada.text_io%s
+D a-tiinio.ads		20230515073318 e58fa6fb ada.text_io.integer_io%s
+D a-unccon.ads		20230515073318 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230515073318 15f799c2 interfaces%s
+D i-c.ads		20230515073318 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20230515073318 f40c8db4 interfaces.c.strings%s
+D i-cstrea.ads		20230515073318 e53d8b8e interfaces.c_streams%s
+D system.ads		20230515073318 f0509fe6 system%s
+D s-atacco.ads		20230515073318 903317eb system.address_to_access_conversions%s
+D s-assert.ads		20230515073318 9c4520c7 system.assertions%s
+D s-casuti.ads		20230515073318 cf13d755 system.case_util%s
+D s-conca3.ads		20230515073318 8a7a19a2 system.concat_3%s
+D s-conca5.ads		20230515073318 4099d1db system.concat_5%s
+D s-crtl.ads		20230515073318 8a0692f8 system.crtl%s
+D s-exctab.ads		20230515073318 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230515073318 dc5161d4 system.file_control_block%s
+D s-finroo.ads		20230515073318 4ff27390 system.finalization_root%s
+D s-imagei.ads		20230515073318 c707dfd0 system.image_i%s
+D s-imgint.ads		20230515073318 d4a52a9b system.img_int%s
+D s-multip.ads		20230515073318 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20230515073318 97504df8 system.os_interface%s
+D s-parame.ads		20230515073318 d494a4a6 system.parameters%s
+D s-putima.ads		20230515073318 17291fe4 system.put_images%s
+D s-secsta.ads		20230515073318 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230515073318 df77073e system.soft_links%s
+D s-stache.ads		20230515073318 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20230515073318 5be75682 system.stack_usage%s
+D s-stalib.ads		20230515073318 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230515073318 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230515073318 8f5a9db6 system.storage_elements%b
+D s-tasinf.ads		20230515073318 601f6b72 system.task_info%s
+D s-taspri.ads		20230515073318 a1350802 system.task_primitives%s
+D s-taprop.ads		20230515073318 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20230515073318 0ec7ab0b system.tasking%s
+D s-taprob.ads		20230515073318 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20230515073318 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20230515073318 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20230515073318 cca55c94 system.tasking.stages%s
+D s-traent.ads		20230515073318 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230515073318 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20230515073318 1f610d7a system.val_int%s
+D s-valuns.ads		20230515073318 e8a1f424 system.val_uns%s
+D s-valuti.ads		20230515073318 fcd603d8 system.val_util%s
+D s-valuei.ads		20230515073318 11081e09 system.value_i%s
+D s-vaispe.ads		20230515073318 44130d39 system.value_i_spec%s
+D s-valueu.ads		20230515073318 18770347 system.value_u%s
+D s-vauspe.ads		20230515073318 a67b2f28 system.value_u_spec%s
+D s-wchcon.ads		20230515073318 d9032363 system.wch_con%s
+D s-widuns.ads		20230515073318 866a5800 system.wid_uns%s
+D s-widthu.ads		20230515073318 b32f15e2 system.width_u%s
+D s-win32.ads		20230515073318 15ac53fb system.win32%s
+D torte.adb		20240521103442 b8337f3f torte%b
+G a e
+G c Z b b [torte standard 10 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 69|7r6 7r19 8r5 8r18
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[19|46] 69|7w23 8r22
+X 18 a-textio.ads
+58K13*Text_IO 787e16 69|7w10 8r9
+566U14*Put_Line 69|40s7 51s19 57s19 63s19 70s19 76s19 89s7 97s7
+X 44 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+X 69 torte.adb
+10U11*torte 10b11 122l5 122t10
+12I9 clienteOP_ID<short_short_integer> 19r29 26r33 50r52 51r52 56r52 57r63
+. 89r31 109r13
+13I9 clienteOC_ID<short_short_integer> 20r29 27r38 62r48 63r59 69r46 70r52
+. 75r46 76r52 97r31 114r13
+16E9 torta 16e42 19r45 26r22 38r24 42r16 89r70
+16n19 cioccolato{16E9} 49r51 55r50 55r80 56r32 58r29 58r52 61r58 65r29 65r52
+. 74r28 77r29 77r52 111r34
+16n31 marmellata{16E9} 49r29 49r82 50r32 52r29 52r52 55r28 55r113 61r28 64r29
+. 64r52 68r28 71r29 71r52 112r34
+17E9 confezione 17e43 20r45 27r22 97r70
+17n24 cioc{17E9} 75r32 116r34
+17n30 marm{17E9} 69r32 74r88 117r34
+17n36 family{17E9} 62r32 68r57 74r57 118r34
+19T14 clienteOP 19d25 19d43 22r24 85b14 91t7 111r20 112r20
+19i25 ID{12I9} 89r51 90r22
+19e43 T{16E9} 26r13 89r82 90r19
+20T14 clienteOC 20d25 20d43 23r24 94b14 101t7 116r20 117r20 118r20
+20i25 ID{13I9} 97r51 98r22
+20e43 C{17E9} 27r13 97r87 98r19
+22P9 acOP(19T14) 104r11
+23P9 acOC(20T14) 105r11
+25T14 server 28l8 28e14 30r7 35b14 81t7
+26Y13 deposito 26>30 50b23 53t19 55r104 56b23 59t19 90r10
+26i30 ID{12I9} 51r71 57r82
+27Y13 prelievo 27>35 62b23 66t19 68r48 69b23 72t19 74r48 74r79 75b23 78t19
+. 98r10
+27i35 ID{13I9} 63r78 70r71 76r71
+30t4 S{25T14} 90r7 98r7
+36i7 MAX{integer} 49r63 49r96 55r62 55r94
+38a7 sultavolo(integer) 43m10 49r19 49r41 49r72 52m19 52r42 55r18 55r40 55r70
+. 58m19 58r42 61r18 61r48 64m19 64r42 65m19 65r42 68r18 71m19 71r42 74r18
+. 77m19 77r42
+42e11 i{16E9} 43r20
+50i45 ID{12I9}
+56i45 ID{12I9}
+62i41 ID{13I9}
+69i39 ID{13I9}
+75i39 ID{13I9}
+104p4 NewOP{22P9} 111m7 112m7
+105p4 NewOC{23P9} 116m7 117m7 118m7
+109i8 I{12I9} 111r31 112r31
+114i8 I{13I9} 116r31 117r31 118r31
+

@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__es5_1.o
+[PROJECT FILES]
+C:\Users\aless\Desktop\SO\es5.gpr
+20240521085322 7b329789b58d56a6e9b4dd7c879c7922
+[BOUND OBJECT FILES]
+C:\Users\aless\Desktop\SO\obj\es5_1.o
+[GENERATED SOURCE FILES]
+b__es5_1.ads
+b__es5_1.adb
+b__es5_1.ali
+[RESULTING OPTIONS]
+-LC:\Users\aless\Desktop\SO\obj\
+-LC:\Users\aless\Desktop\SO\obj\
+-LC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/adalib/
+-static
+-static-libgcc
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/adalib/libgnarl.a
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
